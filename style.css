@@ -1,0 +1,134 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(255, 255, 213);
+}
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Indie+Flower&family=Rubik+Moonrocks&display=swap');
+@font-face {
+    font-family: 'Indie Flower';
+    src: url(https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Indie+Flower&family=Rubik+Moonrocks&display=swap);
+}
+#body{
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+    width: calc(100vw);
+	height: 100%;
+}
+#text{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Indie Flower';
+}
+#allboxes{
+    display: flex;
+	flex-wrap: wrap;
+    height: auto;
+	width: calc(80vw);
+    align-items: center;
+    justify-content: space-between;
+	margin-bottom: 50px;
+}
+.color-box{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 100%;
+}
+#red-color{
+    background-color: red;
+}
+#yellow-color{
+    background-color: yellow;
+}
+#green-color{
+    background-color: green;
+}
+#lightgreen-color{
+    background-color: lightgreen;
+}
+#orange-color{
+    background-color: orange;
+}
+#aqua-color{
+    background-color: aqua;
+}
+#orangered-color{
+    background-color: rgb(255, 115, 0);
+}
+#blue-color{
+    background-color: blue;
+}
+#pink-color{
+    background-color: pink;
+}
+#purple-color{
+    background-color: purple;
+}
+#lightblue-color{
+    background-color: lightblue;
+}
+#black-color{
+    background-color: black;
+}
+#shapes-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+	height: auto;
+	padding-bottom: 20px;
+    background-color: rgb(151, 151, 151);
+}
+.shape{
+    background-color: white;
+    cursor: pointer;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+#square{
+    height: 150px;
+    width: 150px;
+}
+#circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+#oval{
+    height: 150px;
+    width: 250px;
+    border-radius: 50%;
+}
+#rectangle{
+    height: 150px;
+    width: 250px;
+}
+#parallelogram{
+    height: 150px;
+    width: 250px;
+    transform: skew(20deg);
+}
+#triangle{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 150px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+#trapezoid{
+	border-bottom: 150px solid rgb(255, 255, 255);
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+    background-color: transparent;
+	height: 0;
+	width: 170px;
+}
+
